@@ -1,0 +1,28 @@
+# Web scraping
+beautifulsoup4
+requests
+
+# File and PDF handling
+pdfminer.six
+
+# Data manipulation
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Transformers for BERT (optional but recommended)
+transformers
+torch
+
+# Google Colab (if running in Colab environment)
+# Note: This is not installable via pip but relevant if using in Colab
+# google-colab
+
+# Logging and others
+tqdm
