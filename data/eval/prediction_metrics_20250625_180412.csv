@@ -1,0 +1,2 @@
+Query_ID,Query,Method,Predicted_Solution,Expected_Outcome,Confidence,Match_Score,Top_Cases,Timestamp
+TEMPLATE,Template query,weighted,Template prediction,Template expected,0.0,0.0,case1;case2;case3,2025-06-25T18:04:12.211749

@@ -1,0 +1,205 @@
+Model,K,Queries_Evaluated,Avg_Precision,Avg_Recall,Avg_F1,Avg_Accuracy,Std_Precision,Std_Recall,Std_F1,Timestamp,Query_ID,Query_Text,Precision,Recall,F1,Accuracy,TP,FP,FN,Retrieved_Count,Relevant_Count
+tfidf,10,50.0,0.034,0.085,0.04857142857142858,0.034,0.05141984052872976,0.1285496013218244,0.07345691504104254,2025-06-25T18:04:12.168525,,,,,,,,,,,
+bert,10,50.0,0.038000000000000006,0.095,0.0542857142857143,0.038000000000000006,0.059632206063502294,0.14908051515875576,0.0851888658050033,2025-06-25T18:04:12.168539,,,,,,,,,,,
+svm,10,50.0,0.034,0.085,0.04857142857142858,0.034,0.05141984052872976,0.1285496013218244,0.07345691504104254,2025-06-25T18:04:12.168545,,,,,,,,,,,
+naive_bayes,10,50.0,0.034,0.085,0.04857142857142858,0.034,0.05141984052872976,0.1285496013218244,0.07345691504104254,2025-06-25T18:04:12.168551,,,,,,,,,,,
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168560,Q001,kasus korupsi pengadaan barang dan jasa,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168568,Q002,penyuapan pejabat daerah untuk perizinan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168574,Q003,pencucian uang hasil tindak pidana korupsi,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168581,Q004,gratifikasi kepada hakim pengadilan negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168589,Q005,mark up anggaran dana bantuan sosial,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168597,Q006,kolusi tender proyek infrastruktur,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168604,Q007,penyalahgunaan wewenang kepala dinas,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168611,Q008,korupsi dana hibah pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168619,Q009,penyuapan dalam proses lelang proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168626,Q010,penggelapan dana anggaran pendidikan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168648,Q011,pemerasan oleh pejabat publik dalam proses perizinan,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168656,Q012,penggelapan pajak oleh pejabat negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168664,Q013,penerimaan hadiah oleh anggota DPR terkait proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168673,Q014,penyimpangan anggaran dana desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168679,Q015,penyalahgunaan anggaran COVID-19,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168685,Q016,penyuapan jaksa dalam proses penyidikan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168690,Q017,penggelapan dana koperasi pegawai negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168696,Q018,korupsi pengadaan alat kesehatan rumah sakit,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168701,Q019,pemalsuan dokumen anggaran proyek pemerintah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168707,Q020,penyaluran dana fiktif oleh bendahara sekolah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168713,Q021,suap dalam proses rekrutmen pegawai negeri sipil,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168719,Q022,korupsi proyek pembangunan jalan desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168726,Q023,penggunaan dana BOS tidak sesuai peruntukan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168732,Q024,penerimaan gratifikasi oleh pejabat kementerian,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168741,Q025,suap kepada petugas imigrasi untuk izin tinggal,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168749,Q026,penyelewengan dana CSR oleh pejabat daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168755,Q027,korupsi dalam pengadaan seragam sekolah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168764,Q028,pemberian komisi ilegal dalam proyek APBD,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168773,Q029,manipulasi laporan keuangan oleh bendahara daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168782,Q030,penyuapan kepala daerah dalam pemilihan proyek,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168788,Q031,korupsi dalam distribusi bantuan pangan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168793,Q032,pencucian uang oleh pejabat bank pemerintah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168802,Q033,penyuapan dalam pengurusan sertifikat tanah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168811,Q034,gratifikasi dalam pengangkatan jabatan struktural,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168819,Q035,penyalahgunaan dana pembangunan pasar tradisional,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168828,Q036,pemotongan dana bansos oleh aparat desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168836,Q037,pemberian fee proyek oleh kontraktor kepada pejabat,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168842,Q038,korupsi pembangunan fasilitas olahraga,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168848,Q039,rekayasa anggaran oleh tim anggaran pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168854,Q040,penyelewengan dana proyek normalisasi sungai,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168859,Q041,penyuapan auditor untuk memanipulasi hasil audit,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168864,Q042,korupsi dalam pengadaan buku perpustakaan sekolah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168869,Q043,penyaluran bantuan fiktif untuk UMKM,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168875,Q044,penggelapan dana pelatihan kerja oleh dinas,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168880,Q045,suap dalam pengurusan dokumen ekspor-impor,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168886,Q046,korupsi pembangunan jembatan desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168890,Q047,pencucian uang lintas negara oleh pejabat tinggi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168895,Q048,penyelewengan dana pemilu oleh penyelenggara,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168901,Q049,pemberian gratifikasi oleh pengusaha kepada gubernur,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+tfidf,10,,,,,,,,,2025-06-25T18:04:12.168907,Q050,penyuapan aparat penegak hukum untuk menghentikan kasus,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168914,Q001,kasus korupsi pengadaan barang dan jasa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168921,Q002,penyuapan pejabat daerah untuk perizinan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168926,Q003,pencucian uang hasil tindak pidana korupsi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168931,Q004,gratifikasi kepada hakim pengadilan negeri,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168937,Q005,mark up anggaran dana bantuan sosial,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168942,Q006,kolusi tender proyek infrastruktur,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168948,Q007,penyalahgunaan wewenang kepala dinas,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168953,Q008,korupsi dana hibah pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168958,Q009,penyuapan dalam proses lelang proyek,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168963,Q010,penggelapan dana anggaran pendidikan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168970,Q011,pemerasan oleh pejabat publik dalam proses perizinan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168976,Q012,penggelapan pajak oleh pejabat negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168983,Q013,penerimaan hadiah oleh anggota DPR terkait proyek,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168988,Q014,penyimpangan anggaran dana desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.168995,Q015,penyalahgunaan anggaran COVID-19,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169001,Q016,penyuapan jaksa dalam proses penyidikan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169007,Q017,penggelapan dana koperasi pegawai negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169013,Q018,korupsi pengadaan alat kesehatan rumah sakit,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169021,Q019,pemalsuan dokumen anggaran proyek pemerintah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169027,Q020,penyaluran dana fiktif oleh bendahara sekolah,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169037,Q021,suap dalam proses rekrutmen pegawai negeri sipil,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169047,Q022,korupsi proyek pembangunan jalan desa,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169067,Q023,penggunaan dana BOS tidak sesuai peruntukan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169074,Q024,penerimaan gratifikasi oleh pejabat kementerian,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169079,Q025,suap kepada petugas imigrasi untuk izin tinggal,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169085,Q026,penyelewengan dana CSR oleh pejabat daerah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169090,Q027,korupsi dalam pengadaan seragam sekolah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169096,Q028,pemberian komisi ilegal dalam proyek APBD,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169101,Q029,manipulasi laporan keuangan oleh bendahara daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169107,Q030,penyuapan kepala daerah dalam pemilihan proyek,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169112,Q031,korupsi dalam distribusi bantuan pangan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169118,Q032,pencucian uang oleh pejabat bank pemerintah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169123,Q033,penyuapan dalam pengurusan sertifikat tanah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169129,Q034,gratifikasi dalam pengangkatan jabatan struktural,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169134,Q035,penyalahgunaan dana pembangunan pasar tradisional,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169139,Q036,pemotongan dana bansos oleh aparat desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169145,Q037,pemberian fee proyek oleh kontraktor kepada pejabat,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169150,Q038,korupsi pembangunan fasilitas olahraga,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169155,Q039,rekayasa anggaran oleh tim anggaran pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169162,Q040,penyelewengan dana proyek normalisasi sungai,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169168,Q041,penyuapan auditor untuk memanipulasi hasil audit,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169174,Q042,korupsi dalam pengadaan buku perpustakaan sekolah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169180,Q043,penyaluran bantuan fiktif untuk UMKM,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169186,Q044,penggelapan dana pelatihan kerja oleh dinas,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169192,Q045,suap dalam pengurusan dokumen ekspor-impor,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169199,Q046,korupsi pembangunan jembatan desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169206,Q047,pencucian uang lintas negara oleh pejabat tinggi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169213,Q048,penyelewengan dana pemilu oleh penyelenggara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169219,Q049,pemberian gratifikasi oleh pengusaha kepada gubernur,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+bert,10,,,,,,,,,2025-06-25T18:04:12.169226,Q050,penyuapan aparat penegak hukum untuk menghentikan kasus,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169234,Q001,kasus korupsi pengadaan barang dan jasa,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169240,Q002,penyuapan pejabat daerah untuk perizinan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169247,Q003,pencucian uang hasil tindak pidana korupsi,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169253,Q004,gratifikasi kepada hakim pengadilan negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169260,Q005,mark up anggaran dana bantuan sosial,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169278,Q006,kolusi tender proyek infrastruktur,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169285,Q007,penyalahgunaan wewenang kepala dinas,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169292,Q008,korupsi dana hibah pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169299,Q009,penyuapan dalam proses lelang proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169305,Q010,penggelapan dana anggaran pendidikan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169312,Q011,pemerasan oleh pejabat publik dalam proses perizinan,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169318,Q012,penggelapan pajak oleh pejabat negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169325,Q013,penerimaan hadiah oleh anggota DPR terkait proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169331,Q014,penyimpangan anggaran dana desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169337,Q015,penyalahgunaan anggaran COVID-19,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169344,Q016,penyuapan jaksa dalam proses penyidikan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169350,Q017,penggelapan dana koperasi pegawai negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169356,Q018,korupsi pengadaan alat kesehatan rumah sakit,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169363,Q019,pemalsuan dokumen anggaran proyek pemerintah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169370,Q020,penyaluran dana fiktif oleh bendahara sekolah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169376,Q021,suap dalam proses rekrutmen pegawai negeri sipil,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169383,Q022,korupsi proyek pembangunan jalan desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169389,Q023,penggunaan dana BOS tidak sesuai peruntukan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169395,Q024,penerimaan gratifikasi oleh pejabat kementerian,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169401,Q025,suap kepada petugas imigrasi untuk izin tinggal,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169409,Q026,penyelewengan dana CSR oleh pejabat daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169415,Q027,korupsi dalam pengadaan seragam sekolah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169422,Q028,pemberian komisi ilegal dalam proyek APBD,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169428,Q029,manipulasi laporan keuangan oleh bendahara daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169434,Q030,penyuapan kepala daerah dalam pemilihan proyek,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169441,Q031,korupsi dalam distribusi bantuan pangan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169447,Q032,pencucian uang oleh pejabat bank pemerintah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169453,Q033,penyuapan dalam pengurusan sertifikat tanah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169459,Q034,gratifikasi dalam pengangkatan jabatan struktural,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169466,Q035,penyalahgunaan dana pembangunan pasar tradisional,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169472,Q036,pemotongan dana bansos oleh aparat desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169479,Q037,pemberian fee proyek oleh kontraktor kepada pejabat,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169485,Q038,korupsi pembangunan fasilitas olahraga,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169491,Q039,rekayasa anggaran oleh tim anggaran pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169497,Q040,penyelewengan dana proyek normalisasi sungai,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169505,Q041,penyuapan auditor untuk memanipulasi hasil audit,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169511,Q042,korupsi dalam pengadaan buku perpustakaan sekolah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169518,Q043,penyaluran bantuan fiktif untuk UMKM,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169524,Q044,penggelapan dana pelatihan kerja oleh dinas,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169530,Q045,suap dalam pengurusan dokumen ekspor-impor,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169537,Q046,korupsi pembangunan jembatan desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169544,Q047,pencucian uang lintas negara oleh pejabat tinggi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169550,Q048,penyelewengan dana pemilu oleh penyelenggara,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169557,Q049,pemberian gratifikasi oleh pengusaha kepada gubernur,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+svm,10,,,,,,,,,2025-06-25T18:04:12.169563,Q050,penyuapan aparat penegak hukum untuk menghentikan kasus,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169570,Q001,kasus korupsi pengadaan barang dan jasa,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169577,Q002,penyuapan pejabat daerah untuk perizinan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169583,Q003,pencucian uang hasil tindak pidana korupsi,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169590,Q004,gratifikasi kepada hakim pengadilan negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169597,Q005,mark up anggaran dana bantuan sosial,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169603,Q006,kolusi tender proyek infrastruktur,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169609,Q007,penyalahgunaan wewenang kepala dinas,0.2,0.5,0.28571428571428575,0.2,2.0,8.0,2.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169615,Q008,korupsi dana hibah pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169621,Q009,penyuapan dalam proses lelang proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169627,Q010,penggelapan dana anggaran pendidikan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169648,Q011,pemerasan oleh pejabat publik dalam proses perizinan,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169655,Q012,penggelapan pajak oleh pejabat negara,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169662,Q013,penerimaan hadiah oleh anggota DPR terkait proyek,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169668,Q014,penyimpangan anggaran dana desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169675,Q015,penyalahgunaan anggaran COVID-19,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169681,Q016,penyuapan jaksa dalam proses penyidikan,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169687,Q017,penggelapan dana koperasi pegawai negeri,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169694,Q018,korupsi pengadaan alat kesehatan rumah sakit,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169700,Q019,pemalsuan dokumen anggaran proyek pemerintah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169708,Q020,penyaluran dana fiktif oleh bendahara sekolah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169714,Q021,suap dalam proses rekrutmen pegawai negeri sipil,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169721,Q022,korupsi proyek pembangunan jalan desa,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169727,Q023,penggunaan dana BOS tidak sesuai peruntukan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169733,Q024,penerimaan gratifikasi oleh pejabat kementerian,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169739,Q025,suap kepada petugas imigrasi untuk izin tinggal,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169745,Q026,penyelewengan dana CSR oleh pejabat daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169751,Q027,korupsi dalam pengadaan seragam sekolah,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169757,Q028,pemberian komisi ilegal dalam proyek APBD,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169763,Q029,manipulasi laporan keuangan oleh bendahara daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169770,Q030,penyuapan kepala daerah dalam pemilihan proyek,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169776,Q031,korupsi dalam distribusi bantuan pangan,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169783,Q032,pencucian uang oleh pejabat bank pemerintah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169789,Q033,penyuapan dalam pengurusan sertifikat tanah,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169795,Q034,gratifikasi dalam pengangkatan jabatan struktural,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169801,Q035,penyalahgunaan dana pembangunan pasar tradisional,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169807,Q036,pemotongan dana bansos oleh aparat desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169841,Q037,pemberian fee proyek oleh kontraktor kepada pejabat,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169847,Q038,korupsi pembangunan fasilitas olahraga,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169853,Q039,rekayasa anggaran oleh tim anggaran pemerintah daerah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169859,Q040,penyelewengan dana proyek normalisasi sungai,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169865,Q041,penyuapan auditor untuk memanipulasi hasil audit,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169871,Q042,korupsi dalam pengadaan buku perpustakaan sekolah,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169877,Q043,penyaluran bantuan fiktif untuk UMKM,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169883,Q044,penggelapan dana pelatihan kerja oleh dinas,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169889,Q045,suap dalam pengurusan dokumen ekspor-impor,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169895,Q046,korupsi pembangunan jembatan desa,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169917,Q047,pencucian uang lintas negara oleh pejabat tinggi,0.0,0.0,0.0,0.0,0.0,10.0,4.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169925,Q048,penyelewengan dana pemilu oleh penyelenggara,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169931,Q049,pemberian gratifikasi oleh pengusaha kepada gubernur,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
+naive_bayes,10,,,,,,,,,2025-06-25T18:04:12.169937,Q050,penyuapan aparat penegak hukum untuk menghentikan kasus,0.1,0.25,0.14285714285714288,0.1,1.0,9.0,3.0,10.0,4.0
