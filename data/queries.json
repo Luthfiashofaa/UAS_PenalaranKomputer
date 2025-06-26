@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "total_queries": 10,
+    "created_at": "2025-06-25T18:40:47.663717",
+    "description": "Test queries untuk evaluasi sistem retrieval kasus hukum",
+    "version": "fixed_enhanced"
+  },
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query_text": "kasus korupsi pengadaan barang dan jasa",
+      "description": "Query korupsi pengadaan",
+      "ground_truth": [
+        "case_2025_TK1_Putusan_PN_JAKARTA_UTARA_Nomor_440_Pdt_P_2025_PN_Jkt_Utr_Tanggal_11_Juni_2025__Pemohon_MAYMUNAH",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_45_Pid_Sus-TPK_2024_PN_Sby_Tanggal_9_Oktober_2024__Penuntut_Umum_ARIF_USMAN__SH__MHTerdakwa_SISKA_WATI",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_25_Pid_Sus-TPK_2024_PN_Sby_Tanggal_25_Juli_2024__Penuntut_Umum_I_PUTU_KISNU_GUPTA__S_H_Terdakwa_JURIYAH__S_E",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_125_Pid_Sus-TPK_2023_PN_Sby_Tanggal_15_Maret_2024__Penuntut_Umum_YUSUFI_FITROHANSYAH__S_H_Terdakwa_JOKO_PURNOMO_BIN_Alm__SUDARMO"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q002",
+      "query_text": "penyuapan pejabat daerah untuk perizinan",
+      "description": "Query penyuapan pejabat",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_55_Pid_Sus-TPK_2024_PN_Sby_Tanggal_18_Oktober_2024__Penuntut_Umum_Martina_Peristyanti__S_H___MBATerdakwa_Soemarno_Bin_Pakis",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_27_Pid_Sus-TPK_2024_PN_Sby_Tanggal_6_Agustus_2024__Penuntut_Umum_Silfana_Chairini__S_H___M_HTerdakwa_Angga_Dwi_Prastya",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_146_Pid_Sus-TPK_2023_PN_Sby_Tanggal_2_April_2024__Penuntut_Umum_ANDRI_TRI_WIBOWO__SH_M_HumTerdakwa_KAREN_AGUNG_WIBOWO",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_104_Pid_Sus-TPK_2023_PN_Sby_Tanggal_19_Februari_2024__Penuntut_Umum_Nur_Ngali_SH_MHTerdakwa_ABDUL_MALIK_MUJIONO"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q003",
+      "query_text": "pencucian uang hasil tindak pidana korupsi",
+      "description": "Query pencucian uang",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_52_Pid_Sus-TPK_2024_PN_Sby_Tanggal_19_September_2024__Penuntut_Umum_FERRY_HARY_ARDIANTO__S_H_Terdakwa_AKHMAT",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_137_Pid_Sus-TPK_2023_PN_Sby_Tanggal_17_April_2024__Penuntut_Umum_PUTU_EKA_WISNIATI__S_H_Terdakwa_BRAM_KUSNOHARDJO",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_124_Pid_Sus-TPK_2023_PN_Sby_Tanggal_23_Februari_2024__Penuntut_Umum_NUR_RACHMANSYAH__S_H___M_H_Terdakwa_CHRISTOPHER_O_DEWABRATA",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_75_Pid_Sus-TPK_2024_PN_Sby_Tanggal_16_Desember_2024__Penuntut_Umum_ADITIA_SULAEMAN__S_HTerdakwa_MOHAMMAD_SYAIFUDIN__S_Sos_"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q004",
+      "query_text": "gratifikasi kepada hakim pengadilan negeri",
+      "description": "Query gratifikasi hakim",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_1_Pid_Sus-TPK_2024_PN_Sby_Tanggal_17_Mei_2024__Penuntut_Umum_Adisti_Pratama_Ferevaldy__S_HTerdakwa_H__HARI_BIN_AMIN",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_119_Pid_Sus-TPK_2023_PN_Sby_Tanggal_5_Maret_2024__Penuntut_Umum_NUR_RACHMANSYAH__S_H__M_H_Terdakwa_Drs__Wonggo_Prayitno__MM_",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_85_Pid_Sus-TPK_2024_PN_Sby_Tanggal_31_Desember_2024__Penuntut_Umum_Martina_Peristyanti__S_H___MBATerdakwa_MEGA_YUNAN_RAKHMANA",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_81_Pid_Sus-TPK_2024_PN_Sby_Tanggal_9_Desember_2024__Penuntut_Umum_ANTON_WAHYUDI__S_H___MHTerdakwa_Ir__HENDRO_BUDI_SUSATYO"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q005",
+      "query_text": "mark up anggaran dana bantuan sosial",
+      "description": "Query mark up anggaran",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_121_Pid_Sus-TPK_2023_PN_Sby_Tanggal_19_Maret_2024__Penuntut_Umum_SETYO_ADHI_WICAKSONO__SH_MH_Terdakwa_RIKA_SURTIKA",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_98_Pid_Sus-TPK_2023_PN_Sby_Tanggal_1_Februari_2024__Penuntut_Umum_RENDY_BAHAR_PUTRA__S_H_Terdakwa_RINCANA_YULIADI_Bin_PAIDI",
+        "case_2025_TK1_Putusan_PN_JAKARTA_UTARA_Nomor_440_Pdt_P_2025_PN_Jkt_Utr_Tanggal_11_Juni_2025__Pemohon_MAYMUNAH",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_45_Pid_Sus-TPK_2024_PN_Sby_Tanggal_9_Oktober_2024__Penuntut_Umum_ARIF_USMAN__SH__MHTerdakwa_SISKA_WATI"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q006",
+      "query_text": "kolusi tender proyek infrastruktur",
+      "description": "Query kolusi tender",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_102_Pid_Sus-TPK_2023_PN_Sby_Tanggal_19_Februari_2024__Penuntut_Umum_Nur_Ngali_SH_MHTerdakwa_YEMI_SETIAWAN",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_72_Pid_Sus-TPK_2024_PN_Sby_Tanggal_16_Desember_2024__Penuntut_Umum_ADITIA_SULAEMAN__S_HTerdakwa_WASITO_BIN_WIJI",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_55_Pid_Sus-TPK_2024_PN_Sby_Tanggal_18_Oktober_2024__Penuntut_Umum_Martina_Peristyanti__S_H___MBATerdakwa_Soemarno_Bin_Pakis",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_27_Pid_Sus-TPK_2024_PN_Sby_Tanggal_6_Agustus_2024__Penuntut_Umum_Silfana_Chairini__S_H___M_HTerdakwa_Angga_Dwi_Prastya"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q007",
+      "query_text": "penyalahgunaan wewenang kepala dinas",
+      "description": "Query penyalahgunaan wewenang",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_103_Pid_Sus-TPK_2024_PN_Sby_Tanggal_23_Desember_2024__Penuntut_Umum_DIAN_PRANATA_DEPARI__S_H__M_HTerdakwa_H__Munandar__SP___M_M_Bin_Alm__Adjib",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_66_Pid_Sus-TPK_2024_PN_Sby_Tanggal_25_Nopember_2024__Penuntut_Umum_GEO_DWI_NOVRIAN__SHTerdakwa_IKHWAN_AROFIDANA__SE_bin_H__HASAN_ANWAR_alm",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_52_Pid_Sus-TPK_2024_PN_Sby_Tanggal_19_September_2024__Penuntut_Umum_FERRY_HARY_ARDIANTO__S_H_Terdakwa_AKHMAT",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_137_Pid_Sus-TPK_2023_PN_Sby_Tanggal_17_April_2024__Penuntut_Umum_PUTU_EKA_WISNIATI__S_H_Terdakwa_BRAM_KUSNOHARDJO"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q008",
+      "query_text": "korupsi dana hibah pemerintah daerah",
+      "description": "Query korupsi dana hibah",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_82_Pid_Sus-TPK_2024_PN_Sby_Tanggal_9_Desember_2024__Penuntut_Umum_ANTON_WAHYUDI__S_H___MHTerdakwa_FARID_RIZA_MAULANA",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_51_Pid_Sus-TPK_2024_PN_Sby_Tanggal_20_September_2024__Penuntut_Umum_MUHAMMAD_NIZAR__S_H___M_HTerdakwa_ACH__KHOZAINI_Bin_SUTO",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_1_Pid_Sus-TPK_2024_PN_Sby_Tanggal_17_Mei_2024__Penuntut_Umum_Adisti_Pratama_Ferevaldy__S_HTerdakwa_H__HARI_BIN_AMIN",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_119_Pid_Sus-TPK_2023_PN_Sby_Tanggal_5_Maret_2024__Penuntut_Umum_NUR_RACHMANSYAH__S_H__M_H_Terdakwa_Drs__Wonggo_Prayitno__MM_"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q009",
+      "query_text": "penyuapan dalam proses lelang proyek",
+      "description": "Query penyuapan lelang",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_62_Pid_Sus-TPK_2024_PN_Sby_Tanggal_9_Oktober_2024__Penuntut_Umum_ARIF_USMAN__SH__MHTerdakwa_ARI_SURYONO",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_29_Pid_Sus-TPK_2024_PN_Sby_Tanggal_29_Juli_2024__Penuntut_Umum_MUHAMMAD_NIZAR__S_H___M_HTerdakwa_Ir__DONNY_ANANTO_NILANTOKO__MP",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_121_Pid_Sus-TPK_2023_PN_Sby_Tanggal_19_Maret_2024__Penuntut_Umum_SETYO_ADHI_WICAKSONO__SH_MH_Terdakwa_RIKA_SURTIKA",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_98_Pid_Sus-TPK_2023_PN_Sby_Tanggal_1_Februari_2024__Penuntut_Umum_RENDY_BAHAR_PUTRA__S_H_Terdakwa_RINCANA_YULIADI_Bin_PAIDI"
+      ],
+      "num_ground_truth": 4
+    },
+    {
+      "query_id": "Q010",
+      "query_text": "penggelapan dana anggaran pendidikan",
+      "description": "Query penggelapan dana pendidikan",
+      "ground_truth": [
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_36_Pid_Sus-TPK_2024_PN_Sby_Tanggal_22_Agustus_2024__Penuntut_Umum_SAMSUL_HADI__SH_Terdakwa_EVI_SULISTIA_WATININGSIH",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_131_Pid_Sus-TPK_2023_PN_Sby_Tanggal_5_April_2024__Penuntut_Umum_Moch__Taufiq_Ismail__S_HTerdakwa_Drs__HERI_EKO_WAHYUDI_ARIEPRADIPTO_anak_dari_EDUARDUS_RUSDRUJITO",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_102_Pid_Sus-TPK_2023_PN_Sby_Tanggal_19_Februari_2024__Penuntut_Umum_Nur_Ngali_SH_MHTerdakwa_YEMI_SETIAWAN",
+        "case_2024_TK1_Putusan_PN_SURABAYA_Nomor_72_Pid_Sus-TPK_2024_PN_Sby_Tanggal_16_Desember_2024__Penuntut_Umum_ADITIA_SULAEMAN__S_HTerdakwa_WASITO_BIN_WIJI"
+      ],
+      "num_ground_truth": 4
+    }
+  ]
+}
